@@ -1,0 +1,55 @@
+/*
+Student Info: Name=Xinkai Li, ID=16271
+Subject: CS526B_HW3_Fall_2016
+Author: PeterLi
+Filename: style.css
+Date and Time: 2016-11-11 22:33:05
+Project Name: HW3
+*/
+/* 
+    Created on : 2016-11-11, 22:33:05
+    Author     : PeterLi
+*/
+
+body
+{
+    background-color:#d0e4fe;
+}
+h1
+{
+    color:orange;
+}
+p, label
+{
+    font-family:"Times New Roman";
+    font-size:20px;
+    margin-left: 15px;
+}
+
+header {
+    margin: 0;
+    border-bottom: 2px solid rgb(119, 75, 77);
+    padding: .5em 2em;
+}
+header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+
+.textbox { 
+    border: 3px inset #FFA5A5; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+} 
+
+table, td, th
+{
+    border:1px solid green;
+}
+th
+{
+    background-color:green;
+    color:white;
+}
